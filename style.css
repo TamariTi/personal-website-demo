@@ -127,3 +127,28 @@ footer {
 .about-sec p {
     line-height: 1.5em ;
 }
+
+#con-wrap {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#con-wrap h1 {
+    margin-bottom: 20px;
+}
+
+#con-wrap ul a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    margin: 10px;
+}
+
+#con-wrap ul a:hover{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
